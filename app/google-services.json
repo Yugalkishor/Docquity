@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "321652230318",
+    "project_id": "twiclodemo",
+    "storage_bucket": "twiclodemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321652230318:android:3808cf4bc54f67c7f0453f",
+        "android_client_info": {
+          "package_name": "com.syed.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321652230318-fpghc71fdambn357l2p6rn3l9sh3k527.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.syed.myapplication",
+            "certificate_hash": "766a13bae1ec058220928f58b7252b631f260042"
+          }
+        },
+        {
+          "client_id": "321652230318-qamr1g7l1pdo99fvi32haomrnd6ktm9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewol6IDKg2mvTXleQ5kZL-e2YOYCnBIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321652230318-qamr1g7l1pdo99fvi32haomrnd6ktm9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

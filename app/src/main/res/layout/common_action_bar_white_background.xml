@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/ic_back_arrow" />
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/fl_search"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/iv_back"
+            android:paddingVertical="@dimen/_5sdp"
+            android:visibility="invisible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle_home_search"
+                android:paddingLeft="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_toLeftOf="@+id/ll_cancle"
+                    android:background="@color/color_transparent"
+                    android:gravity="center|left"
+                    android:hint="Search Models"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/balack_70"
+                    android:textSize="@dimen/_14ssp" />
+                <LinearLayout
+                    android:id="@+id/ll_cancle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/_5sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_24sdp"
+                        android:layout_height="@dimen/_24sdp"
+                        android:background="@drawable/ic_baseline_cancel_24"
+                        android:backgroundTint="@color/black"
+                        android:foregroundGravity="center" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_map"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Map"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="gone"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="true"
+    android:padding="@dimen/_5sdp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/right_button"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_search_24"
+        android:visibility="visible" />
+
+</LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

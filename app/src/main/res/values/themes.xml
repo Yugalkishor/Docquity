@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarTheme</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+        <item name="colorAccent">@color/bg_color</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/bg_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+    <style name="ActionBarTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/color_transparent</item>
+    </style>
+</resources>
